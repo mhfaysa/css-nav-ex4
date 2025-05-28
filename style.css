@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+.parent{
+    background-color: var(--blue);
+    display: flex;
+    height: 50px;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+.nav{
+    display: flex;
+    list-style: none;
+}
+.logo img{
+    height: 30px;
+    width: 30px;
+}
+.nav li a{
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+}
+.nav li a:hover{
+    color: gold;
+}
+
